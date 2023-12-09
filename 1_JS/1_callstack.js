@@ -15,3 +15,10 @@ function third() {
 }
 
 first();
+
+//stack 구조 (크롬기준)
+//third()
+//second()
+//first()
+//anonymous
+//실행 결과 : 세번째, 두번째, 첫번째
