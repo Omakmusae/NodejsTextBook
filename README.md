@@ -14,3 +14,15 @@
 9. Map, Set, WeakMap, WeakSet
 10. 옵셔널 체이닝, 널 병합
 11. 프론트엔드 자바스크립트
+
+#2_node_basic
+
+
+
+#3_sdf
+
+#4_npm
+1. package.json
+2. node_modules와 npx, Semver
+3. npm 명령어들 알아보기
+4. npm 배포하기

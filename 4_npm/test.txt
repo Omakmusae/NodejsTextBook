@@ -9,3 +9,7 @@ Major.Minor.Patch
 Major : 하위 호환이 되지 않는 변경사항
 Minor : 하위 호환이 되는 변경사항
 Patch : 버그 수정 사항
+
+npm cli doc : npm 명령어들이 설명되어있음
+
+npm outdated : 패키지의 변화가 있는지 검색 할 수 있음
