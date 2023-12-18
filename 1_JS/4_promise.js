@@ -11,7 +11,7 @@ const promise = new Promise((resolve, reject) => {
         reject('실패')
     }
 });
-
+//위에서 promise를 선언하고 아래에서 사용할 수 있음
 promise
     .then((message) => {
         console.log(message);
