@@ -65,15 +65,30 @@ const obj2 = {
 
 obj2.sayName() //undefined
 
+
+
 const obj3 = {
     name:'zerocho',
     sayName(){
-        console.log(this.name);
+        console.log(this.name);// zerocho
         function inner() {
-            console.log(this.name)
+            console.log(this.name)//undefined
         }
         inner();
     }
 }
 
 obj3.sayName()
+
+const obj4 = {
+    name:'zerocho',
+    sayName(){
+        console.log(this.name);// zerocho
+        const inner= ()=> {
+            console.log(this.name)//zerocho
+        }
+        inner();
+    }
+}
+
+obj4.sayName()
