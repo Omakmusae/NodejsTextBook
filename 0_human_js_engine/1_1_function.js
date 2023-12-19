@@ -12,7 +12,7 @@ console.log(calculator(add,3,5)) // 8
 //함수의 매개변수에 add() 호출을 넣음
 //함수와 함수 호출은 차이가 있음!
 
-const x = 'x'; //없애면 c에서 x를 출력하면 reference error 발생
+const x = 'x'; //없애면 c에서 x를 출력하면 reference error
 function c() {
     const y= 'y';
     console.log('c   ', x)
