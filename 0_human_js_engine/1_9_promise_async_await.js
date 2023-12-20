@@ -95,3 +95,26 @@ increaseAndPrint1(0)
 // 네번째 끝
 // 5
 // 끝!
+
+
+function findAndSaveUser (Users) {
+    Users.findOne({})
+        .then((user)=> {
+            user.name='zero';
+            return user.save();
+        })
+        .then((user)=> {
+            return Users.findOne({gender:'m'});
+        })
+        .then((user) => {
+            //생략
+        })
+        .catch(err)
+}
+
+async function findAndSaveUser2(Users) {
+    let user = await Users.findOne({});
+    user.name = 'zero';
+    user = await user.save();
+    user = await Users.findOne({gender:'m'});
+}
