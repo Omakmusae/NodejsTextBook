@@ -25,9 +25,14 @@
 
 // console.log('End!')
 
-function doSomething() {
-    return new Promise((resolve, reject) => {
-        resolve(100)
-    });
-  }
+// function doSomething() {
+//     return new Promise((resolve, reject) => {
+//         resolve(100)
+//     });
+//   }
+
+
+Promise.resolve().then(() => {
+    console.log("프로미스")
+})
 
