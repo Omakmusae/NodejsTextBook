@@ -22,13 +22,3 @@ promise.then((resolve) => {
 
 
 
-const p1 = axios.get('서버주소1')
-const p2 = axios.get('서버주소2')
-const p3 = axios.get('서버주소3')
-const p4 = axios.get('서버주소4')
-const p5 = axios.get('서버주소5')
-const p6 = axios.get('서버주소6')
-const p7 = axios.get('서버주소7')
-
-
-

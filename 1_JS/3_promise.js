@@ -62,3 +62,6 @@ delayP(1).then((result) => {
     console.log(result)
 });
 
+
+
+module.exports = delay

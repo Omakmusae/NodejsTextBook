@@ -98,8 +98,8 @@ increaseAndPrint1(0)
 
 
 function findAndSaveUser (Users) {
-    Users.findOne({})
-        .then((user)=> {
+    Users.findOne({})//findOne이 실행 완료되면
+        .then((user)=> {//실행이 성공하면 그 결과가 user, then에서는 이 user를 받아서 실행
             user.name='zero';
             return user.save();
         })
@@ -118,3 +118,4 @@ async function findAndSaveUser2(Users) {
     user = await user.save();
     user = await Users.findOne({gender:'m'});
 }
+
