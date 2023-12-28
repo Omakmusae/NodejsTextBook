@@ -1,6 +1,8 @@
 "use strict";
-//변수, 매개변수, 리턴값에 타입을 붙임
-// node js는 타입스크립트를 바로 실행할 수 없음, 타입스크립트는 tsc라는 컴팡리러를 통해 자바스크립트 코드로 변환할 수 있음
-let a = 'hello';
-a = 'world';
-console.log(a)
+// b 객체의 hello에 대해 type 명시
+const b = { hello: 'world' };
+// 아래는 hello 값을 보고서 타입스크립트가 hello의 값은 string이라고 type을 추론함
+const b2 = { hello: 'world' };
+const b3 = { hello: 'interface' }; //world에 ?가 있어서 b3에 world를 안넣어도 에러가 안남
+const b4 = { hello: 'interface', world: 123 };
+const c = { hello: 'type' };
