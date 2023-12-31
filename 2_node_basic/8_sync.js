@@ -8,3 +8,4 @@ data = fs.readFileSync('./read.txt')
 console.log('3번' , data.toString())
 data = fs.readFileSync('./read.txt')
 console.log('4번' , data.toString())
+
